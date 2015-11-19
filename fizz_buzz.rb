@@ -1,7 +1,7 @@
 class FizzBuzz
   def run
     ret_val = []
-    (1..100).each do |num|
+    (1..limit).each do |num|
       ret_val << transform(num)
     end
     ret_val
@@ -17,5 +17,11 @@ class FizzBuzz
     else
       "#{i}"
     end
+  end
+
+  private
+
+  def limit
+    10_000 / 100
   end
 end
