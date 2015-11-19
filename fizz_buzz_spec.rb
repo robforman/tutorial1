@@ -26,5 +26,9 @@ describe FizzBuzz do
     it "returns all Strings" do
       expect(fizz_buzz.run.map(&:class).uniq).to eq([String])
     end
+
+    it "returns a third element of 'Fizz'" do
+      expect(fizz_buzz.run[2]).to eq("Fizz")
+    end
   end
 end
