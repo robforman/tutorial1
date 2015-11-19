@@ -1,7 +1,7 @@
 class FizzBuzz
   def run
     ret_val = []
-    (1..10).each do |num|
+    (1..100).each do |num|
       if num % 5 == 0 and num % 3 == 0
         ret_val << "FizzBuzz"
       elsif num % 5 == 0
