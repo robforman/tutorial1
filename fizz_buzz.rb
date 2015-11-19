@@ -8,5 +8,7 @@ class FizzBuzz
   end
 end
 
+# Here is my README:
+#
 # irb> FizzBuzz.new.run
 # => ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
