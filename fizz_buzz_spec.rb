@@ -13,7 +13,7 @@ describe FizzBuzz do
       expect(fizz_buzz.run.count).to eq(10)
     end
 
-    it "should return strings" do
+    it "returns the first object as a string" do
       expect(fizz_buzz.run.first.class).to eq(String)
     end
   end
