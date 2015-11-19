@@ -31,4 +31,10 @@ describe FizzBuzz do
       expect(fizz_buzz.run[2]).to eq("Fizz")
     end
   end
+
+  describe "#transform" do
+    it "transforms 3 to Fizz" do
+      expect(fizz_buzz.transform(3)).to eq("Fizz")
+    end
+  end
 end
