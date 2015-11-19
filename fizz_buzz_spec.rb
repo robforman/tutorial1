@@ -6,7 +6,9 @@ describe FizzBuzz do
 
   describe "#run" do
     it "shouldn't error out" do
-      fizz_buzz.run
+      expect {
+        fizz_buzz.run
+      }.not_to raise_error
     end
 
     it "should return 10 things" do
