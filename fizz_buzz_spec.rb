@@ -18,5 +18,9 @@ describe FizzBuzz do
     it "returns the first object as a string" do
       expect(fizz_buzz.run.first.class).to eq(String)
     end
+
+    it "returns the last object as a string" do
+      expect(fizz_buzz.run.first.class).to eq(String)
+    end
   end
 end
