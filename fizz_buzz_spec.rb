@@ -11,7 +11,7 @@ describe FizzBuzz do
       }.not_to raise_error
     end
 
-    it "should return 10 things" do
+    it "returns 10 things" do
       expect(fizz_buzz.run.count).to eq(10)
     end
 
